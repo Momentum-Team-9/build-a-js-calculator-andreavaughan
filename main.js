@@ -1,137 +1,58 @@
 const display = document.getElementById('display')
 
-//This section of code declares buttons and sets up event listeners for button click
+// //This section of code declares buttons and sets up event listeners for button click
 
-const num1 = document.getElementById('num1')
-console.log(num1)
+// const num1 = document.getElementById('num1')
+// console.log(num1)
 
-num1.addEventListener('click', function (event) {
-    console.log(event.target.innerText)//Question - why is the console.log important to how this event function runs?
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
-// Question - is there a way to write this as a function so we don't have to copy/paste numerous times?
-/* Something like: 
-variable.addEventListener 
-*/
+const container = document.querySelector('.calculator')
 
-const num2 = document.getElementById('num2')
-
-num2.addEventListener('click', function(event){
+container.addEventListener('click', function(event){
     console.log(event.target.innerText)
-    console.log('button clicked')
     display.innerText += event.target.innerText
 })
 
-const num3 = document.getElementById('num3')
+function clearDisplay(){
+    display.innerText = ''
+}
 
-num3.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
+document.querySelector(".clear").addEventListener('click', function(){
+    console.log('CLEAR!')
+    clearDisplay()
 })
 
-const num4 = document.getElementById('num4')
 
-num4.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
 
-const num5 = document.getElementById('num5')
+// num1.addEventListener('click', function (event) {
+//     console.log(event.target.innerText)//Question - why is the console.log important to how this event function runs?
+//     console.log('button clicked')
+//     display.innerText += event.target.innerText
 
-num5.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
 
-const num6 = document.getElementById('num6')
 
-num6.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
 
-const num7 = document.getElementById('num7')
 
-num7.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
 
-const num8 = document.getElementById('num8')
+// const equals = document.getElementById('equals')
 
-num8.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
+// display.addEventListener('input', function(event){
+//     console.log(event.target.innerText)
+//     Selection.toString(display.innerText)
+// })
 
-const num9 = document.getElementById('num9')
 
-num9.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
 
-const num0 = document.getElementById('num0')
 
-num0.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
+// equals.addEventListener('click', function(event){
+//     console.log(event.target.innerText)
+//     Selection.toString(display.innerText)
+// })
 
-const add = document.getElementById('add')
 
-add.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
 
-const minus = document.getElementById('minus')
-
-minus.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
-
-const multiply = document.getElementById('multiply')
-
-multiply.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
-
-const divide = document.getElementById('divide')
-
-divide.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
-
-const decimal = document.getElementById('decimal')
-
-decimal.addEventListener('click', function(event){
-    console.log(event.target.innerText)
-    console.log('button clicked')
-    display.innerText += event.target.innerText
-})
-
-const equals = document.getElementById('equals')
-
-equals.addEventListener('click', function(event){
-    for 
-})
+// equals.addEventListener('click', function(event){
+//     for 
+// })
 
 // const clear = document.getElementById('clear')
 
