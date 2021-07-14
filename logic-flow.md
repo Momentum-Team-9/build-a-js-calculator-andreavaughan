@@ -22,4 +22,9 @@ Step 4: Clear display
 
 >> When "clear" is clicked, all input is removed from loop and display is cleared. Not sure how to do this yet. 
 
-
+###
+TO-DO
+- Figure out how to create function that enters in variable and makes it a button
+- Make contents of "display" a string
+- Run eval on string when = is clicked
+- Set up functionality for clear

@@ -2,6 +2,13 @@ body{
     background-color: powderblue;
 }
 
+.calculator {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
 .button {
     width: 60px;
     height: 60px;
@@ -13,7 +20,7 @@ body{
 }
 
 #display {
-    width: 120px;
+    width: 180px;
     height: 60px;
     display: flex;
     justify-content: flex-start;
