@@ -1,0 +1,22 @@
+body{
+    background-color: powderblue;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+#display {
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: salmon;
+}
