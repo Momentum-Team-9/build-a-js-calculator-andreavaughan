@@ -2,6 +2,21 @@ body{
     background-color: powderblue;
 }
 
+section{
+    display: flex;
+    margin: 5px;
+
+}
+
+.display {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: salmon;
+}
+
 .calculator {
     display: flex;
     flex-direction: row;
@@ -19,11 +34,3 @@ body{
     background-color: #ffffff;
 }
 
-#display {
-    width: 180px;
-    height: 60px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: salmon;
-}
