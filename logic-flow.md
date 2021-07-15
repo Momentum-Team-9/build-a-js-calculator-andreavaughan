@@ -24,7 +24,6 @@ Step 4: Clear display
 
 ###
 TO-DO
-- Figure out how to create function that enters in variable and makes it a button
-- Make contents of "display" a string
+- set a way to track sequence of buttons that are clicked
+- 
 - Run eval on string when = is clicked
-- Set up functionality for clear

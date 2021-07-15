@@ -1,11 +1,8 @@
+const container = document.querySelector('.calculator')
 const display = document.getElementById('display')
-
-// //This section of code declares buttons and sets up event listeners for button click
 
 // const num1 = document.getElementById('num1')
 // console.log(num1)
-
-const container = document.querySelector('.calculator')
 
 container.addEventListener('click', function(event){
     console.log(event.target.innerText)
@@ -21,7 +18,27 @@ document.querySelector(".clear").addEventListener('click', function(){
     clearDisplay()
 })
 
+const equate = document.querySelector('.equals')
 
+equate.addEventListener('click', function(event){
+    let equation = display.innerText
+    console.log(eval(equation))
+    display.innerText = eval(equation)
+})
+
+
+
+
+
+//################
+// equate.addEventListener('click', function(event){
+//     console.log(event.data)
+// })
+
+// container.addEventListener('click', function(event){
+//     console.log(event.target.dataset.value)
+//     setDisplay(event.target.innerText)
+// })
 
 // num1.addEventListener('click', function (event) {
 //     console.log(event.target.innerText)//Question - why is the console.log important to how this event function runs?
